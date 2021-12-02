@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "pt sans";
+  src: url("../fuentes/PT_Sans/PTSans-Regular.ttf");
+}
+
+*{
+  font-family: pt sans;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: #000;
+  color: #fff;
+  text-align: right;
+  height: 100px;
+}
+
+.logo{
+  float: left;
+  width: 200px;
+  margin-left: 20px;
+}
+
+.menu-list{
+  display: inline-block;
+  margin-top: 42px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.inputs{
+  display:block;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.inputs-text{
+  height: 2rem;
+}
+
+.footer{
+  background-color: #000;
+  color: #fff;
+  height: 75px;
+}
+
+a{color: #fff;}
+
+.footer-icons{
+  width: 35px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer-copyright{
+  float: right;
+  margin-top: 1.84rem;
+  margin-right: 20px;
+}
+
+.header-menu-container{
+  margin-right: 10px;
+}
+
+.footer-fb-icon{
+  margin-left: 20px;
+}
+
+.index-image{
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+.contacto-image{
+width: 46%;
+margin: 25px 25px 25px 0;
+vertical-align: top;
+}
+
+.titulo-h1{
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.contacto-p-form{
+  display: inline-block;
+  width: 46%;
+  margin: 25px;
+}
+
+.contacto-boton{
+  height: 2rem;
+  width: 20%;
+  background-color: darkorange;
+  border-radius: 3px;
+  font-weight: bolder;
+}
+
+.habitaciones{
+  width: 46%;
+  display: inline-block;
+  margin: 25px 0 25px 25px;
+  text-align: center;
+}
+
+.habitaciones-imagenes{
+  height: 450px;
+  width: 100%;
+}
+
+.productos{
+  width: 23%;
+  display: inline-block;
+  margin: 12px 0 12px 12px;
+  text-align: center;
+}
+
+.p-titulo-producto{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nosotros-p{
+  width: 46%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 25px;
+}
+
+.nosotros-imagen{
+  width: 46%;
+  margin: 25px 25px 25px 0;
+}
