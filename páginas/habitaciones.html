@@ -4,79 +4,138 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../diseño/estilos/estilos.css" />
     <title>Haussembly</title>
   </head>
 
-  <body class="grid-container one-column">
-    <header class="flex-container header">
-      <img class="logo" src="../diseño/imagenes/logo.jpg" alt="Logo" />
-      <nav>
-        <ul class="header-menu-container">
-          <li class="menu-list"><a href="../index.html">Inicio</a></li>
-          <li class="menu-list"><a href="nosotros.html">Nosotros</a></li>
-          <li class="menu-list">
-            <a href="habitaciones.html">Habitaciones</a>
-          </li>
-          <li class="menu-list"><a href="productos.html">Productos</a></li>
-          <li class="menu-list"><a href="contacto.html">Contacto</a></li>
-        </ul>
+  <body class="container-fluid">
+    <header class="black-background row">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              class="logo col-1"
+              src="../diseño/imagenes/logo.jpg"
+              alt="Logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="habitaciones.html"
+                  >Habitaciones</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
-    <section class="content">
-      <ul class="flex-container-elements">
-        <li class="habitaciones">
-          <h2>Sala</h2>
+    <div class="row">
+      <section class="p-5 col-sm-12 col-md-6">
+        <div class="card mb-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Sala</h5>
+          </div>
           <img
-            class="habitaciones-imagenes"
             src="../diseño/imagenes/sala.jpg"
+            class="card-img-bottom"
             alt="Imagen Sala"
           />
-        </li>
-        <li class="habitaciones">
-          <h2>Comedor</h2>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Comedor</h5>
+          </div>
           <img
-            class="habitaciones-imagenes"
             src="../diseño/imagenes/comedor.jpg"
+            class="card-img-bottom"
             alt="Imagen Comedor"
           />
-        </li>
-        <li class="habitaciones">
-          <h2>Recámara</h2>
+        </div>
+
+        <div class="card mt-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Recámara</h5>
+          </div>
           <img
-            class="habitaciones-imagenes"
             src="../diseño/imagenes/recamara.jpg"
+            class="card-img-bottom"
             alt="Imagen Recámara"
           />
-        </li>
-        <li class="habitaciones">
-          <h2>Cocina</h2>
+        </div>
+      </section>
+
+      <section class="col-sm-12 col-md-6 px-5 pb-5 pt-md-5">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Cocina</h5>
+          </div>
           <img
-            class="habitaciones-imagenes"
             src="../diseño/imagenes/cocina.jpg"
+            class="card-img-bottom"
             alt="Imagen Cocina"
           />
-        </li>
-        <li class="habitaciones">
-          <h2>Oficina</h2>
+        </div>
+
+        <div class="card mt-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Oficina</h5>
+          </div>
           <img
-            class="habitaciones-imagenes"
             src="../diseño/imagenes/oficina.jpg"
+            class="card-img-bottom"
             alt="Imagen Oficina"
           />
-        </li>
-        <li class="habitaciones">
-          <h2>Jardín</h2>
+        </div>
+
+        <div class="card mt-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Jardín</h5>
+          </div>
           <img
-            class="habitaciones-imagenes"
             src="../diseño/imagenes/jardin.jpg"
+            class="card-img-bottom"
             alt="Imagen Jardín"
           />
-        </li>
-      </ul>
-    </section>
-    <footer class="flex-container footer">
-      <div class="footer-icons-container">
+        </div>
+      </section>
+    </div>
+    <footer class="black-background row footer">
+      <div class="footer-icons-container col-3">
         <img
           class="footer-icons"
           src="../diseño/imagenes/icons8-facebook-rodeado-de-circulo.svg"
@@ -93,7 +152,14 @@
           alt="Twitter Icono"
         />
       </div>
-      <p>© Haussembly 2021. | Todos los derechos reservados</p>
+      <div class="col-9 d-flex align-items-center flex-row-reverse">
+        © Haussembly 2021. | Todos los derechos reservados
+      </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
