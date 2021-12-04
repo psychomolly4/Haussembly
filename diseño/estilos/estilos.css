@@ -31,12 +31,9 @@
   grid-template-columns: 50% 50%;
 }
 
-.flex-container {
+.black-background {
   background-color: #000;
   color: #fff;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .flex-container-elements {
@@ -92,13 +89,13 @@ a {
 }
 
 .footer {
-  grid-area: footer;
-  gap: 60%;
+  min-height: 50px;
 }
 
 .footer-icons-container {
   display: flex;
   gap: 15%;
+  flex-wrap: wrap;
 }
 
 .footer-icons {
@@ -108,8 +105,7 @@ a {
 }
 
 .index-image {
-  width: 100%;
-  margin-bottom: -4px;
+  padding: 0;
 }
 
 .contacto-image {
@@ -182,10 +178,6 @@ a {
     flex-wrap: wrap;
   }
 
-  .footer {
-    gap: 36%;
-  }
-
   .p-titulo-producto {
     font-size: 1rem;
   }
@@ -218,9 +210,5 @@ a {
 
   .header-menu-container {
     flex-wrap: wrap;
-  }
-
-  .footer {
-    gap: 30%;
   }
 }
