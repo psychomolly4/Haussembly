@@ -5,8 +5,6 @@
 
 * {
   font-family: pt sans;
-  margin: 0;
-  padding: 0;
 }
 
 .black-background {
@@ -54,14 +52,6 @@ a {
   margin-right: 2px;
 }
 
-.index-image {
-  padding: 0;
-}
-
-.contacto-image {
-  width: 100%;
-}
-
 .titulo-h1 {
   margin-bottom: 25px;
 }
@@ -88,14 +78,6 @@ a {
 .p-titulo-producto {
   font-size: 1.5rem;
   font-weight: bold;
-}
-
-.nosotros-p {
-  display: inline-block;
-}
-
-.nosotros-imagen {
-  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
