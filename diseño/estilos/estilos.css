@@ -117,7 +117,7 @@ a {
   animation-duration: 4s;
 }
 
-.productos > img {
+.productos-img {
   width: 80%;
 }
 
@@ -135,7 +135,7 @@ a {
     width: 35%;
   }
 
-  .productos > img {
+  .productos-img {
     width: 100%;
   }
 
