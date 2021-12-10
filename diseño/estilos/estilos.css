@@ -64,11 +64,57 @@ a {
   font-weight: bolder;
 }
 
+.animacion-pulse:hover {
+  animation: pulse;
+  animation-duration: 1s;
+}
+
 .productos {
-  width: 20%;
+  width: 18%;
   display: inline-block;
   text-align: center;
   margin: 25px;
+  animation: fadeIn;
+}
+
+.animacion-delay {
+  animation-duration: 1s;
+}
+.animacion-delay-1 {
+  animation-duration: 1.25s;
+}
+.animacion-delay-2 {
+  animation-duration: 1.5s;
+}
+.animacion-delay-3 {
+  animation-duration: 1.75s;
+}
+.animacion-delay-4 {
+  animation-duration: 2s;
+}
+.animacion-delay-5 {
+  animation-duration: 2.25s;
+}
+.animacion-delay-6 {
+  animation-duration: 2.5s;
+}
+.animacion-delay-7 {
+  animation-duration: 2.75s;
+}
+.animacion-delay-8 {
+  animation-duration: 3s;
+}
+.animacion-delay-9 {
+  animation-duration: 3.25s;
+}
+.animacion-delay-10 {
+  animation-duration: 3.5s;
+}
+.animacion-delay-11 {
+  animation-duration: 3.75s;
+}
+.animacion-delay-12 {
+  animation-duration: 4s;
 }
 
 .productos > img {
