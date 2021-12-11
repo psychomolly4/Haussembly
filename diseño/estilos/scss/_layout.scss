@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+  .p-titulo-producto {
+    font-size: 1rem;
+  }
+
+  .productos {
+    width: 35%;
+  }
+
+  .productos-img {
+    width: 100%;
+  }
+
+  .contacto-boton {
+    width: 100%;
+  }
+
+  .logo {
+    width: 150px;
+  }
+  .footer-icons-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

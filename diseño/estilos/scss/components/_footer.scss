@@ -1,0 +1,15 @@
+.footer {
+  min-height: 50px;
+
+  &-icons-container {
+    display: flex;
+    gap: 15%;
+    flex-wrap: wrap;
+
+    &-icons {
+      width: 35px;
+      display: inline-block;
+      margin-right: 2px;
+    }
+  }
+}

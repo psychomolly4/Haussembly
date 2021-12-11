@@ -1,0 +1,26 @@
+$black-darks: #000;
+$white-light: #fff;
+$margin: 25px;
+
+@font-face {
+  font-family: "pt sans";
+  src: url("../../fuentes/PT_Sans/PTSans-Regular.ttf");
+}
+
+* {
+  font-family: pt sans;
+}
+
+.black-background {
+  background-color: $black-darks;
+  color: $white-light;
+}
+
+.titulo-h1 {
+  margin-bottom: $margin;
+}
+
+.animacion-pulse:hover {
+  animation: pulse;
+  animation-duration: 1s;
+}

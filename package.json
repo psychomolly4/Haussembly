@@ -1,0 +1,25 @@
+{
+  "name": "haussembly",
+  "version": "1.0.0",
+  "description": "Proyecto final para el curso de Desarrollo Web Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path diseño/estilos/scss diseño/estilos/scss/main.scss diseño/estilos/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psychomolly4/Haussembly.git"
+  },
+  "author": "Mon Badillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psychomolly4/Haussembly/issues"
+  },
+  "homepage": "https://github.com/psychomolly4/Haussembly#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

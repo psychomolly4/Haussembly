@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "pt sans";
+  src: url("../../fuentes/PT_Sans/PTSans-Regular.ttf"); }
+
+* {
+  font-family: pt sans; }
+
+.black-background {
+  background-color: #000;
+  color: #fff; }
+
+.titulo-h1 {
+  margin-bottom: 25px; }
+
+.animacion-pulse:hover {
+  animation: pulse;
+  animation-duration: 1s; }
+
+.logo {
+  width: 200px; }
+
+.footer {
+  min-height: 50px; }
+  .footer-icons-container {
+    display: flex;
+    gap: 15%;
+    flex-wrap: wrap; }
+    .footer-icons-container-icons {
+      width: 35px;
+      display: inline-block;
+      margin-right: 2px; }
+
+.inputs {
+  display: block;
+  width: 100%;
+  margin-top: 25px; }
+
+.inputs-text {
+  height: 2rem; }
+
+.contacto-boton {
+  height: 2rem;
+  width: 20%;
+  background-color: darkorange;
+  border-radius: 3px;
+  font-weight: bolder; }
+
+.flex-container-elements {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .flex-container-elements .productos {
+    width: 18%;
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
+    animation: fadeIn; }
+    .flex-container-elements .productos-img {
+      width: 80%; }
+    .flex-container-elements .productos .p-titulo-producto {
+      font-size: 1.5rem;
+      font-weight: bold; }
+  .flex-container-elements .animacion-delay {
+    animation-duration: 1s; }
+  .flex-container-elements .animacion-delay-1 {
+    animation-duration: 1.25s; }
+  .flex-container-elements .animacion-delay-2 {
+    animation-duration: 1.5s; }
+  .flex-container-elements .animacion-delay-3 {
+    animation-duration: 1.75s; }
+  .flex-container-elements .animacion-delay-4 {
+    animation-duration: 2s; }
+  .flex-container-elements .animacion-delay-5 {
+    animation-duration: 2.25s; }
+  .flex-container-elements .animacion-delay-6 {
+    animation-duration: 2.5s; }
+  .flex-container-elements .animacion-delay-7 {
+    animation-duration: 2.75s; }
+  .flex-container-elements .animacion-delay-8 {
+    animation-duration: 3s; }
+  .flex-container-elements .animacion-delay-9 {
+    animation-duration: 3.25s; }
+  .flex-container-elements .animacion-delay-10 {
+    animation-duration: 3.5s; }
+  .flex-container-elements .animacion-delay-11 {
+    animation-duration: 3.75s; }
+  .flex-container-elements .animacion-delay-12 {
+    animation-duration: 4s; }
+
+@media screen and (max-width: 600px) {
+  .p-titulo-producto {
+    font-size: 1rem; }
+  .productos {
+    width: 35%; }
+  .productos-img {
+    width: 100%; }
+  .contacto-boton {
+    width: 100%; }
+  .logo {
+    width: 150px; }
+  .footer-icons-container {
+    flex-direction: column;
+    align-items: flex-start; } }
