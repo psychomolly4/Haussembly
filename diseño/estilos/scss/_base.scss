@@ -20,6 +20,23 @@ $margin: 25px;
   margin-bottom: $margin;
 }
 
+.index-h2 {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.imagenes-pagos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tamaño-imagenes-pagos {
+  width: 200px;
+  margin: 50px;
+}
+
 .animacion-pulse:hover {
   animation: pulse;
   animation-duration: 1s;

@@ -9,7 +9,7 @@
 }
 
 .contacto-boton {
-  height: 2rem;
+  @extend .inputs-text;
   width: 20%;
   background-color: darkorange;
   border-radius: 3px;

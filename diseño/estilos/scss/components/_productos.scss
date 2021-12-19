@@ -1,3 +1,13 @@
+@mixin animacion-delay {
+  $delay: 1s;
+  @for $index from 0 to 12 {
+    .animacion-delay-#{$index} {
+      animation-duration: $delay;
+    }
+    $delay: $delay + 0.25s;
+  }
+}
+
 .flex-container-elements {
   display: flex;
   justify-content: space-around;
@@ -19,43 +29,5 @@
       font-weight: bold;
     }
   }
-  .animacion-delay {
-    animation-duration: 1s;
-  }
-  .animacion-delay-1 {
-    animation-duration: 1.25s;
-  }
-  .animacion-delay-2 {
-    animation-duration: 1.5s;
-  }
-  .animacion-delay-3 {
-    animation-duration: 1.75s;
-  }
-  .animacion-delay-4 {
-    animation-duration: 2s;
-  }
-  .animacion-delay-5 {
-    animation-duration: 2.25s;
-  }
-  .animacion-delay-6 {
-    animation-duration: 2.5s;
-  }
-  .animacion-delay-7 {
-    animation-duration: 2.75s;
-  }
-  .animacion-delay-8 {
-    animation-duration: 3s;
-  }
-  .animacion-delay-9 {
-    animation-duration: 3.25s;
-  }
-  .animacion-delay-10 {
-    animation-duration: 3.5s;
-  }
-  .animacion-delay-11 {
-    animation-duration: 3.75s;
-  }
-  .animacion-delay-12 {
-    animation-duration: 4s;
-  }
+  @include animacion-delay();
 }
