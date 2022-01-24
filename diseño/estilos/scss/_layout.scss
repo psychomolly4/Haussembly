@@ -1,13 +1,13 @@
 @media screen and (max-width: 600px) {
-  .p-titulo-producto {
-    font-size: 1rem;
+  .flex-container-elements .productos .p-titulo-producto {
+    font-size: 1.2rem;
   }
 
-  .productos {
+  .flex-container-elements .productos {
     width: 35%;
   }
 
-  .productos-img {
+  .flex-container-elements .productos-img {
     width: 100%;
   }
 
@@ -19,11 +19,27 @@
     width: 150px;
   }
   .footer-icons-container {
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 10px;
   }
   .tamaño-imagenes-pagos {
     width: 150px;
     margin: 25px;
+  }
+  .top-padding-img-nosotros-contacto {
+    padding-top: 0;
+  }
+
+  .footer-text {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .flex-container-elements .productos {
+    width: 25%;
   }
 }

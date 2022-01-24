@@ -26,6 +26,10 @@ $margin: 25px;
   margin-top: 50px;
 }
 
+.imagenes-border {
+  border-radius: 5px;
+}
+
 .imagenes-pagos {
   display: flex;
   justify-content: center;
@@ -40,4 +44,8 @@ $margin: 25px;
 .animacion-pulse:hover {
   animation: pulse;
   animation-duration: 1s;
+}
+
+.top-padding-img-nosotros-contacto {
+  padding: 3rem;
 }
