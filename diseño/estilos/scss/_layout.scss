@@ -23,10 +23,21 @@
     gap: 5%;
     padding-top: 10px;
   }
+
+  .margin-top-h2-cards {
+    margin-top: 25px;
+  }
+
+  .tamaño-imagenes-servicios {
+    width: 150px;
+    margin: 25px;
+  }
+
   .tamaño-imagenes-pagos {
     width: 150px;
     margin: 25px;
   }
+
   .top-padding-img-nosotros-contacto {
     padding-top: 0;
   }
@@ -41,5 +52,14 @@
 @media screen and (min-width: 600px) and (max-width: 900px) {
   .flex-container-elements .productos {
     width: 25%;
+  }
+
+  .tamaño-imagenes-pagos {
+    width: 200px;
+    margin-bottom: 0px;
+  }
+
+  .imagenes-cards {
+    margin-bottom: 50px;
   }
 }
